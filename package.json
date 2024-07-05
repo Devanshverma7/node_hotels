@@ -1,0 +1,24 @@
+{
+  "name": "nodejswithmongo",
+  "version": "1.0.0",
+  "description": "good",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "dev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4",
+    "os": "^0.1.2"
+  }
+}
